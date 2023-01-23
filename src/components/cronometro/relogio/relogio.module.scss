@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'digital-clock';
+  src: url('../../../assets/fonts/DS-DIGI.TTF');
+}
+
+.relogioNumero {
+    background-color: #5D677C;
+    box-shadow: 2px 2px 4px #2B2B2B inset;
+    height: 3.6rem;
+    width: 2.5rem;
+    padding: 8px 4px;
+    border-radius: 10px;
+    line-height: 3.5rem;
+    font-family: 'digital-clock';
+    
+  
+    @media screen and (min-width:1280px) {
+      height: 9.8rem;
+      width:6.5rem;
+      font-size: 13rem;
+      line-height: 9rem;
+    }
+  }
+  
+  .relogioDivisao {
+    height: 4.2rem;
+    line-height: 3.7rem;
+    font-family: 'digital-clock';
+  
+    @media screen and (min-width:1280px) {
+      height: 12.6rem;
+      line-height:11rem;
+    }
+  }
